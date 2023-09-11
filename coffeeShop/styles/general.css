@@ -1,0 +1,93 @@
+body{
+    padding-top: 92px;
+    background-color: #E8E6DC ;
+}
+
+p{
+    margin: 0;
+}
+
+.header{
+    z-index: 3;
+    background-color: #B2AC88;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 72px;
+    border-bottom: solid 2px #878057;
+}
+
+.logo,
+.cart,
+.menu,
+.shop{
+   mix-blend-mode: multiply;
+}
+.leftHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-right: 24px;
+}
+.logo{
+    margin: 0 28px;
+    width: 50px;
+}
+
+.middleHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    max-width: 700px;
+}
+
+.search{
+    flex: 1;
+    width: 55px;
+    height: 28px;
+    border-radius: 4px;
+    box-shadow: -3px -3px 5px rgba(0,0,0,0.15);
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.searchButton{
+    width: 40px;
+    height: 32px;
+    margin-left: -4px;
+    border-radius: 0 4px 4px 0;
+    border: 1px solid black;
+    border-left: none;
+    box-shadow: -3px -3px 5px rgba(0,0,0,0.15);
+}
+
+.searchButton:hover{
+    background-color: rgb(224,224,224);
+}
+
+.rightHeader{
+    margin: 0 20px;
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop{
+    padding-top: 5px;
+    width: 60px;
+}
+.cart,
+.menu{
+    width: 55px;
+}
