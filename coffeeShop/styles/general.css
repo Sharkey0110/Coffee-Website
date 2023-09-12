@@ -76,7 +76,7 @@ p{
 
 .rightHeader{
     margin: 0 20px;
-    width: 160px;
+    width: 210px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -87,7 +87,18 @@ p{
     padding-top: 5px;
     width: 60px;
 }
+
+.shoppingCart{
+    position: relative;
+}
+
 .cart,
 .menu{
     width: 55px;
+}
+
+.cartAmount{
+    position: absolute;
+    top: 0;
+    right: 21px;
 }

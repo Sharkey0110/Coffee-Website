@@ -1,7 +1,7 @@
 .storeGrid{
     padding: 0 30px;
     display: grid;
-    place-items: center;
+    justify-content: center;
     column-gap: 14px;
     row-gap: 50px;
 }
@@ -30,6 +30,7 @@
     }
 }
 .product{
+    vertical-align: top;
     box-shadow: 0 0 8px rgba(0,0,5,0.2);
     display: inline-block;
     text-align: center;
@@ -37,17 +38,26 @@
     padding: 2px;
 }
 
+.productName{
+    background-color: white;
+    font-size: 26px;
+    font-weight: bolder;
+    padding-top: 8px;
+}
 .preview{
     border-bottom: 2px solid rgb(234,234,234);
 }
 
 .previewImage{
     width: 300px;
+    height: 210px;
 }
 
 .infomation{
     padding: 8px;
     background-color: rgb(245, 245, 245);
+    top: 0;
+    bottom: 0;
 }
 
 .price{
