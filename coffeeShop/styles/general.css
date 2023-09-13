@@ -1,3 +1,7 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 body{
     padding-top: 92px;
     background-color: #E8E6DC ;
@@ -5,6 +9,10 @@ body{
 
 p{
     margin: 0;
+}
+
+a{
+    color: #ffee98;
 }
 
 .header{
@@ -84,7 +92,6 @@ p{
 }
 
 .shop{
-    padding-top: 5px;
     width: 60px;
 }
 
