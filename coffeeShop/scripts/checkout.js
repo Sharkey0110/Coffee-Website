@@ -1,7 +1,8 @@
-import{cart} from "../data/cart.js";
+import{cart, updateCart} from "../data/cart.js";
 import {products} from "../data/products.js";
 
 const page = document.querySelector(".checkoutGrid");
+updateCart();
 let pageHtml = "";
 
 cart.forEach((item) => {
